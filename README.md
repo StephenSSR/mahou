@@ -20,7 +20,7 @@
 |来源|缓存|网络|
 |:-:|:-:|:-:|
 |[Vercel API](https://mahou.spiritx.xyz/output.png)|无缓存|○|
-|[GitHub Raw](https://raw.githubusercontent.com/opq-osc/mahou/output/output.png)|无缓存|△|
+|[GitHub Raw](https://raw.githubusercontent.com/StephenSSR/mahou/output/output.png)|无缓存|△|
 |[jsdelivr](https://cdn.jsdelivr.net/gh/opq-osc/mahou@output/output.png)|12 hours 缓存|○|
 
 ### License
