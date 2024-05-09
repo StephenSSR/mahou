@@ -1,4 +1,4 @@
-import { defineConfig } from '@xn-sakina/meta'
+import { defineConfig } from '@velor2012/meta'
 
 export default defineConfig({
   compile: 'swc',
