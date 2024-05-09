@@ -7,7 +7,7 @@
   "devDependencies": {
     "@types/node": "^20.4.5",
     "@xn-sakina/mental": "^4.0.2",
-    "@xn-sakina/meta": "^3.5.1",
+    "velor2012/meta": "^3.5.1",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
     "zx": "^7.2.3"
