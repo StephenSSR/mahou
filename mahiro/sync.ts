@@ -41,11 +41,8 @@ const run = async () => {
       const jpTitle = html$(element).find('div div :nth-child(2) a')?.text().trim()
       const title = cnTitle || jpTitle
       const bg = element.attribs.style
-      const extractBg = bg.match(/background:url\('(.*?)'\)/)?.[1]
-      const urlWithoutProtocol = extractBg?.replace(
-        'lain.bgm.tv/pic/cover/c',
-        'lain.bgm.tv/r/400/pic/cover/l'
-      )
+      const extractBg = bg.match(/url\('?([^')]+)'?\)/)?.[1]
+      const urlWithoutProtocol = extractBg
       const info = {
         cover: `https:${urlWithoutProtocol}`,
         title: title?.length ? title : '无标题',
